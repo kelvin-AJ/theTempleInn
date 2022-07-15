@@ -426,6 +426,6 @@ footer span{
 }
 
 /* MUST CHANGE */
-/* .hidden-all{ */
-    /* display: none;
-} */
+.hidden-all{
+    display: none;
+}
