@@ -1,0 +1,112 @@
+{
+    "temples":[
+        {
+            "id": "1",
+            "name": "",
+            "address": "",
+            "telephone": "",
+            "email": "",
+            "services": "",
+            "history": "",
+            "ordinances": "",
+            "schedule1": "",
+            "schedule2": ""
+        },
+        {
+            "id": "2",
+            "name": "",
+            "address": "",
+            "telephone": "",
+            "email": "",
+            "services": "",
+            "history": "",
+            "ordinances": "",
+            "schedule1": "",
+            "schedule2": ""
+        },
+        {
+            "id": "3",
+            "name": "",
+            "address": "",
+            "telephone": "",
+            "email": "",
+            "services": "",
+            "history": "",
+            "ordinances": "",
+            "schedule1": "",
+            "schedule2": ""
+        },
+        {
+            "id": "4",
+            "name": "",
+            "address": "",
+            "telephone": "",
+            "email": "",
+            "services": "",
+            "history": "",
+            "ordinances": "",
+            "schedule1": "",
+            "schedule2": ""
+        },
+        {
+            "id": "5",
+            "name": "",
+            "address": "",
+            "telephone": "",
+            "email": "",
+            "services": "",
+            "history": "",
+            "ordinances": "",
+            "schedule1": "",
+            "schedule2": ""
+        },
+        {
+            "id": "6",
+            "name": "",
+            "address": "",
+            "telephone": "",
+            "email": "",
+            "services": "",
+            "history": "",
+            "ordinances": "",
+            "schedule1": "",
+            "schedule2": ""
+        },
+        {
+            "id": "7",
+            "name": "",
+            "address": "",
+            "telephone": "",
+            "email": "",
+            "services": "",
+            "history": "",
+            "ordinances": "",
+            "schedule1": "",
+            "schedule2": ""
+        },
+        {
+            "id": "8",
+            "name": "",
+            "address": "",
+            "telephone": "",
+            "email": "",
+            "services": "",
+            "history": "",
+            "ordinances": "",
+            "schedule1": "",
+            "schedule2": ""
+        },
+        {
+            "id": "9",
+            "name": "",
+            "address": "",
+            "telephone": "",
+            "email": "",
+            "services": "",
+            "history": "",
+            "ordinances": "",
+            "schedule1": "",
+            "schedule2": ""
+        }
+    ]
+}
