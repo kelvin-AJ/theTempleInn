@@ -28,8 +28,57 @@
         </nav>
         <h1 class="dm-text header-text">The Temple Inn & Suite</h1>
     </header>
-    <main class="temple-main">
-       
+    <main class="reservation-main">
+       <form class="dm-text" method="get" action="">
+        <div class="form-intro">
+            <label><h2>Where are we going?</h2>
+                <input list="temples" placeholder="Salt Lake" name="temple" id="temple-location">
+                <datalist id="temples">
+                    <option>Salt Lake</option>
+                    <option>Kirthland</option>
+                </datalist>
+            </label>
+            <button type="button" class="form-btn reveal-form-1-btn">Make a Reservation
+            </button>
+        </div>
+        <div class="form-part-1 hidden-all">
+            <h2>Great! So what's the plan?</h2>
+            <fieldset>
+                <h3>Date: </h3>
+                <label class="date-label">
+                    <span>Check-in: </span>
+                    <input type="date" name="checkIn" required>
+                </label>
+                <label class="date-label">
+                    <span>Check-out: </span>
+                    <input type="date" name="checkOut" required>
+                </label>
+            </fieldset>
+            <fieldset>
+            <h3>Room Type</h3>
+                <label  class="room-type-radio"><input type="radio" name="room-type" value="regularI"> Regular [Individual]</label>
+                <label  class="room-type-radio"><input type="radio" name="room-type" value="standardI"> Standard [Individual]</label>
+                <label  class="room-type-radio"><input type="radio" name="room-type" value="regularF"> Regular [Family]</label>
+                <label  class="room-type-radio"><input type="radio" name="room-type" value="standardF"> Standard [Family]</label>
+                <label class="date-label">Number of Rooms: <input type="number" name="roomNumbers" value="1"></label>
+            </fieldset>
+            <button type="button" class="form-btn reveal-form-2-btn">Continue</button> 
+        </div>
+        <div class="form-part-2 hidden-all">
+            <h2>Just some more stuff and we're all set!</h2>
+            <fieldset>
+                <label class="text-label">Full Name: </span>
+                    <input type="text" name="fullname" required></label>
+                    <label class="text-label">Email: </span>
+                    <input placeholder="@gmail.com" type="email" name="email" required></label>
+                    <label class="text-label">Phone: </span>
+                    <input type="tel" name="phone" required></label>
+                    <label class="text-label">Home State or Country:  </span>
+                    <input name="country" type="text" required></label>
+            </fieldset>
+        </div>
+        <button type="submit" class="form-btn submit-btn hidden-all">Make a Reservation</button>
+       </form>
     </main>
     <footer>
         <div class="footer-first-half">
@@ -49,6 +98,6 @@
         </div>
         <span>©2022 The Temple Inn & Suite</span>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/reservation.js"></script>
 </body>
 </html>

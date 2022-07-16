@@ -373,6 +373,98 @@ hr{
     padding-top: 1rem;
     height: 2.5rem;
 }
+
+/* Reservation Main */
+/* //////////////// */
+main.reservation-main{
+    display: grid;
+    align-items: center;
+    min-height: 60vh;
+    padding: 1rem;
+    margin: 0 auto;
+    
+}
+form{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    justify-items: center;
+    padding: 1.5rem;
+    border-radius: 0.3rem;
+    border: 2px solid #E1CE7A;
+}
+.form-intro{
+    display: grid;
+    grid-template-rows: 1.2fr 2.5rem;
+    justify-items: center;
+}
+form h2{
+    font-size: 1.3rem;
+    margin: 0.5rem;
+}
+input#temple-location{
+    margin:1rem auto ;
+    width: 16rem;
+    border-radius: 1rem;
+    height: 1.8rem;
+    text-align: center;
+    border: solid 2px #559CAD;
+    color: #423E37;
+}
+input#temple-location:focus, input:focus{
+    outline:2px solid #559CAD;
+}
+.form-btn{
+    background: none;
+    color: #E1CE7A;
+    border: 1px solid #E1CE7A;
+    border-radius: 3rem;
+    height: 2rem;
+    width: 80%;
+    justify-self: center;
+    transition: all 0.2s;
+    margin: 1rem;
+}
+.form-btn:hover{
+    background-color: #559CAD;
+    border: none;
+    color: #FFFFFF;
+    height: 2.2rem;
+}
+.date-label input, .text-label input{
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 1rem;
+    width: 95%;
+    padding-left: 0.3rem;
+    padding-right: 0.2rem;
+    border: 1px solid #559CAD;
+    margin-bottom: 1rem
+}
+.room-type-radio{
+    height: 2.5rem;
+    display: block;
+}
+.form-btn:active{
+    width: 90%;
+}
+form.form-part-1{
+   width: 100%;
+}
+fieldset{
+    border: none;
+    width: 100%;
+    margin: 05;
+}
+button.submit-btn{
+    color: #FFFFFF;
+    background-color: #E1CE7A;
+    height: 2.5rem;
+}
+button.submit-btn:hover{
+    height: 3rem;
+}
+
 /* FOOTER */
 footer{
     display: grid;
@@ -397,6 +489,9 @@ footer .footer-second-half{
 footer .footer-second-half img{
     height: 2rem;
 }
+.scoial-links-box img:hover{
+    background-color: #E1CE7A;
+}
 footer .footer-second-half iframe{
     width: 90vw;
     height: 30rem;
@@ -418,7 +513,7 @@ footer span{
 
 ::-webkit-scrollbar{
     background-color: #FFFFFF;
-    width: 0.5rem;
+    width: 0.4rem;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #423E37;
