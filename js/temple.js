@@ -52,11 +52,11 @@ const closeLarge = function(){
 
 
 const displayTemples = function(temples){
+    if(localStorage.getItem("visited") != "true"){
     temples.forEach(temple => {
-        if(localStorage.getItem("visited") != "true"){
             localStorage.setItem(`${temple.id}`, "not-liked")
-        }
     });
+    };
 
     templesGrid.innerHTML = "";
     temples.forEach(temple => {
@@ -80,7 +80,6 @@ const displayTemples = function(temples){
         `)
     });
 }
-
 
 
 async function getTemples(){
