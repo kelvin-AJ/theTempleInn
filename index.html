@@ -31,7 +31,7 @@
         <img class="header-img opaque" src="images/temple-1.png" alt="A temple">
         <h1 class="dm-text header-text">The Temple Inn & Suite</h1>
         <p class="header-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem reiciendis ut tenetur. Itaque corrupti animi eos eum, expedita optio.</p>
-        <button class="active-btn dm-text cta-btn">Make a Reservation</button>
+        <button class="active-btn dm-text cta-btn" type="button" ><a href="reservation.html">Make a Reservation</a></button>
     </header>
     <main class="home-main">
        <div class="temple-info pt-text">
@@ -46,32 +46,15 @@
         </div>
         <hr>
         <div class="weather-info">
-            <h2>Weather Information</h2>
-            <img src="images/w-icon-placeholder.png" alt="weather icon">
+            <h2>Weather in Bethesda</h2>
+            <img id="cur-weather-icon" src="" alt="weather icon">
             <div class="weather-info-main dm-text">
                 <div><span>Location:</span><span>Manitoba</span></div>
                 <div><span>Description:</span><span>Cloudy</span></div>
                 <div><span>Humidity:</span><span>40%</span></div>
             </div>
             <div class="forecast-grid">
-                <div class="forecast">
-                    <span class="forecast-day dm-text">Tue</span>
-                    <img src="images/w-icon-placeholder.png" class="forecast-icon">
-                    <span class="forecast-high">30°</span>
-                    <span class="forecast-low">16°</span>
-                </div>
-                <div class="forecast">
-                    <span class="forecast-day dm-text">Wed</span>
-                    <img src="images/w-icon-placeholder.png" class="forecast-icon">
-                    <span class="forecast-high">30°</span>
-                    <span class="forecast-low">16°</span>
-                </div>
-                <div class="forecast">
-                    <span class="forecast-day dm-text">Thur</span>
-                    <img src="images/w-icon-placeholder.png" class="forecast-icon">
-                    <span class="forecast-high">30°</span>
-                    <span class="forecast-low">16°</span>
-                </div>
+
             </div>
         </div>
     </main>
@@ -94,6 +77,7 @@
         <span>©2022 The Temple Inn & Suite</span>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 
 </html>

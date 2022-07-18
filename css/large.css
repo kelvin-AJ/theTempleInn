@@ -122,6 +122,7 @@
     .forecast-grid{gap: 0.8rem;}
     .forecast{
         grid-template-rows: 1fr 2fr 1fr;
+        height: 12rem;
         border: 3px solid #E1CE7A;
     }
     .weather-info, .weather-info-main, .forecast-grid, .temple-info{

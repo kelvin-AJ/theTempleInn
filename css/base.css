@@ -172,9 +172,16 @@ header button.cta-btn{
     color: #E1CE7A;
     font-size: inherit;
     height: fit-content;
-    padding: 1rem;
     transition: all 0.3s;
 }
+header button.cta-btn a{
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
 header button.cta-btn:hover{
     background-color: #E1CE7A;
     color: #423E37;
@@ -212,6 +219,8 @@ header button.cta-btn:hover{
 /* MAIN */
 /* ///////////////////////////////////// */
 main{
+    position: relative;
+    top: 0px;
     margin-top: 2rem;
     margin-bottom: 1rem;
     min-height: 23.8vh;
@@ -293,11 +302,12 @@ hr{
 }
 .forecast{
     display: grid;
+    column-gap: 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1rem 1fr 1rem;
     border: 2px solid #E1CE7A;
     border-radius: 1rem;
-    padding: 0.5rem;
+    padding: 0.8rem;
     text-align: center;
 }
 .forecast img{
