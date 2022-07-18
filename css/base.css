@@ -13,6 +13,9 @@ h2{
     text-align: center;
     font-family: 'DM Serif Display', serif;
 }
+b{
+    cursor: pointer;
+}
 .pt-text{
     font-family: 'PT Serif', serif;
 }
