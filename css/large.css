@@ -161,6 +161,27 @@
         grid-column: 2/3;
     }
 
+    /* RESERVATION MAIN */
+    /* //////////////// */
+    main.reservation-main{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+    }
+    form{
+        grid-column:1/2 ;
+    }
+    .form-side-text{
+        grid-column:2/3 ;
+        display: block;
+        transform: translateY(7rem);
+        align-self: center;
+        width: 40rem;
+        text-align: center;
+        font-size: 3rem;
+        color: #E1CE7A;
+        font-style: italic;
+    }
     /* FOOTER */
     /* ///////////////////////////////////// */
     footer{

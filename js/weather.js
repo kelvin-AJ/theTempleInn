@@ -29,7 +29,7 @@ const fillForecastWeather = function(daily){
         `
                 <div class="forecast">
                     <span class="forecast-day dm-text">${getNextDay(i)}</span>
-                    <img src="https://openweathermap.org/img/wn/${daily[i].weather[0].icon}.png" class="forecast-icon" alt="${daily[i].weather[0].description} icon">
+                    <img src="https://openweathermap.org/img/wn/${daily[i].weather[0].icon}@2x.png" class="forecast-icon" alt="${daily[i].weather[0].description} icon">
                     <span class="forecast-high">${Math.round(daily[i].temp.min)}°F</span>
                     <span class="forecast-low">${Math.round(daily[i].temp.max)}°F</span>
                 </div>
