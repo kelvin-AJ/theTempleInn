@@ -32,7 +32,7 @@
        <form class="dm-text" method="get" action="">
         <div class="form-intro">
             <label><h2>Where are we going?</h2>
-                <input list="temples" placeholder="Salt Lake" name="temple" id="temple-location">
+                <input list="temples" placeholder="Salt Lake" name="temple" title="Fill in Temple name or Location here" id="temple-location" required>
                 <datalist id="temples">
                     <option>Salt Lake</option>
                     <option>Kirthland</option>
@@ -56,11 +56,11 @@
             </fieldset>
             <fieldset>
             <h3>Room Type</h3>
-                <label  class="room-type-radio"><input type="radio" name="room-type" value="regularI"> Regular [Individual]</label>
-                <label  class="room-type-radio"><input type="radio" name="room-type" value="standardI"> Standard [Individual]</label>
-                <label  class="room-type-radio"><input type="radio" name="room-type" value="regularF"> Regular [Family]</label>
-                <label  class="room-type-radio"><input type="radio" name="room-type" value="standardF"> Standard [Family]</label>
-                <label class="date-label">Number of Rooms: <input type="number" name="roomNumbers" value="1"></label>
+                <label  class="room-type-radio"><input type="radio" name="room-type" value="regularI" checked required> Regular [Individual]</label>
+                <label  class="room-type-radio"><input type="radio" name="room-type" value="standardI" required> Standard [Individual]</label>
+                <label  class="room-type-radio"><input type="radio" name="room-type" value="regularF" required> Regular [Family]</label>
+                <label  class="room-type-radio"><input type="radio" name="room-type" value="standardF" required> Standard [Family]</label>
+                <label class="date-label">Number of Rooms: <input type="number" name="roomNumbers" value="1" required></label>
             </fieldset>
             <button type="button" class="form-btn reveal-form-2-btn">Continue</button> 
         </div>
@@ -98,6 +98,7 @@
         </div>
         <span>©2022 The Temple Inn & Suite</span>
     </footer>
+    <script src="js/script.js"></script>
     <script src="js/reservation.js"></script>
 </body>
 </html>

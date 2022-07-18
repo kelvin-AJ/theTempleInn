@@ -4,6 +4,9 @@ body{
     font-family: 'PT Serif', serif;
     overflow-x: hidden;
 }
+button{
+    font-family: 'DM Serif Display', serif;
+}
 h2{
     font-size: 1.5rem;
     color: #559CAD;
@@ -59,7 +62,7 @@ h2{
 /* //////////////// */
 header{
     display:grid;
-    height: 95vh;
+    height: 85vh;
     color: #FFFFFF;
     grid-template-columns: 30% 1fr 25%;
     grid-template-rows: 25% 1fr 1fr 20%;
@@ -318,6 +321,7 @@ hr{
     margin-bottom: 1.5rem;
 }
 .temple-temple-card h2{
+    font-size: 1.2rem;
     color: #423E37;
     text-align: left;
     padding-left: 1rem;
@@ -385,15 +389,22 @@ main.reservation-main{
     
 }
 form{
+    background-color: whitesmoke;
+    min-height: 19rem;
     margin: 0 auto;
     width: 80%;
     display: grid;
     justify-items: center;
     padding: 1.5rem;
     border-radius: 0.3rem;
-    border: 2px solid #E1CE7A;
+    border: 2px solid #0090b4;
+    animation-name: backdrop-animation;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
 }
 .form-intro{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     display: grid;
     grid-template-rows: 1.2fr 2.5rem;
     justify-items: center;
@@ -403,21 +414,22 @@ form h2{
     margin: 0.5rem;
 }
 input#temple-location{
-    margin:1rem auto ;
-    width: 16rem;
+    margin:3rem auto ;
+    width: 18rem;
     border-radius: 1rem;
-    height: 1.8rem;
+    height: 2.4rem;
     text-align: center;
     border: solid 2px #559CAD;
     color: #423E37;
 }
 input#temple-location:focus, input:focus{
-    outline:2px solid #559CAD;
+    outline: none;
+    border-width: 4px;
 }
 .form-btn{
     background: none;
     color: #E1CE7A;
-    border: 1px solid #E1CE7A;
+    border: 2px solid #dabc3a;
     border-radius: 3rem;
     height: 2rem;
     width: 80%;
@@ -436,10 +448,11 @@ input#temple-location:focus, input:focus{
     margin-top: 0.2rem;
     border-radius: 1rem;
     width: 95%;
-    padding-left: 0.3rem;
-    padding-right: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.8rem;
     border: 1px solid #559CAD;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    transform: translateX(-1rem);
 }
 .room-type-radio{
     height: 2.5rem;
@@ -509,6 +522,20 @@ footer span{
 @keyframes opaqusize{
     from{opacity: 0%;}
     to{opacity: 100%;}
+}
+@keyframes backdrop-animation{
+    0%{
+        background-color: #423e3717;
+    }
+    33%{
+        background: #559bad17;
+    }
+    66%{
+        background: #e1ce7a44;
+    }
+    100%{
+        background-color: #423e371f;
+    }
 }
 
 ::-webkit-scrollbar{
