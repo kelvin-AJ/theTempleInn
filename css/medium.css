@@ -64,8 +64,8 @@
         width: 50%;
         transform: translateX(1rem);
     }
-    header button.cta-btn{
-        padding: 0.5rem;
+    header .cta-btn{
+        padding: 0.8rem;
         border-radius: 0.5rem;
         border-width: 1px;
         margin-right: 3rem;
@@ -138,7 +138,12 @@
     .temple-temple-card h2{
         font-size: 1.5rem;
     }
-
+    /* SERVICES */
+    /* //////// */
+    .spotlight-sub{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     /* FOOTER */
     /* ///////////////////////////////////// */
     footer{

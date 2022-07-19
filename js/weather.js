@@ -1,8 +1,12 @@
 const weatherInfoMain = document.querySelector(".weather-info-main");
 const curWeatherIcon = document.querySelector("#cur-weather-icon");
 const forecastGrid = document.querySelector(".forecast-grid");
+const homeBody = document.querySelector("body");
+let hex;
+let banner;
 
-const apiLink = "https://api.openweathermap.org/data/2.5/onecall?lat=38.98&lon=-77.09&appid=2f8abfbca951d73dc1966185af2f0fea&units=imperial&exclude=hourly,minutely";
+const apiLink = "https://api.openweathermap.org/data/2.5/onecall?lat=38.98&lon=-77.09&appid=2f8abfbca951d73dc1966185af2f0fea&units=imperial";
+
 
 
 const fillCurWeather = function(current){
@@ -38,10 +42,26 @@ const fillForecastWeather = function(daily){
     };
 };
 
+const fillAlertWeather =  function(alert){
+    if(alert != undefined){
+        
+        homeBody.insertAdjacentElement("afterbegin", 
+        `
+        <div class="banner"><p><b>${alert.event}: </b>${alert.description}</p> <div id="hex">✕</div></div>
+        `);
+        hex = document.querySelector("#hex");
+        banner = document.querySelector(".banner");
+        hex.addEventListener("click", function(){
+            banner.classList.add("hidden-all");
+        });
+    };
+};
+
 async function getWeather() {
     const weatherFetch = await fetch(apiLink);
     const json = await weatherFetch.json();
+    fillAlertWeather(json.alerts);
     fillCurWeather(json.current);
     fillForecastWeather(json.daily);
-}
+};
 getWeather();

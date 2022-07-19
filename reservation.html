@@ -32,9 +32,9 @@
     <main class="reservation-main">
         <h1 class="header-img transparent pt-text form-side-text">...and the heart of the children to the fathers...'<br>-Malachi 4:5-6</h1>
         <h1 class="header-img opaque pt-text form-side-text">'And he shall turn the heart of the fathers to the children,...</h1>
-       <form class="dm-text" method="get" action="">
+       <form class="dm-text" method="get" action="reserved.html">
         <div class="form-intro">
-            <label><h2>Where are we going?</h2>
+            <label><span class="h2-tag">Where are we going?</span>
                 <input list="temples" placeholder="Salt Lake" name="temple" title="Fill in Temple name or Location here" id="temple-location" required>
                 <datalist id="temples">
                     <option>Salt Lake</option>
@@ -47,7 +47,7 @@
         <div class="form-part-1 hidden-all">
             <h2>Great! So what's the plan?</h2>
             <fieldset>
-                <h3>Date: </h3>
+                <h3>Date<span class="star">*</span>: </h3>
                 <label class="date-label">
                     <span>Check-in: </span>
                     <input type="date" name="checkIn" required>
@@ -58,25 +58,25 @@
                 </label>
             </fieldset>
             <fieldset>
-            <h3>Room Type</h3>
+            <h3>Room Type<span class="star">*</span></h3>
                 <label  class="room-type-radio"><input type="radio" name="room-type" value="regularI" checked required> Regular [Individual]</label>
                 <label  class="room-type-radio"><input type="radio" name="room-type" value="standardI" required> Standard [Individual]</label>
                 <label  class="room-type-radio"><input type="radio" name="room-type" value="regularF" required> Regular [Family]</label>
                 <label  class="room-type-radio"><input type="radio" name="room-type" value="standardF" required> Standard [Family]</label>
-                <label class="date-label">Number of Rooms: <input type="number" name="roomNumbers" value="1" required></label>
+                <label class="date-label">Number of Rooms<span class="star">*</span>: <input type="number" name="roomNumbers" value="1" required></label>
             </fieldset>
             <button type="button" class="form-btn reveal-form-2-btn">Continue</button> 
         </div>
         <div class="form-part-2 hidden-all">
             <h2>Just some more stuff and we're all set!</h2>
             <fieldset>
-                <label class="text-label">Full Name: </span>
+                <label class="text-label">Full Name<span class="star">*</span>: 
                     <input type="text" name="fullname" required></label>
-                    <label class="text-label">Email: </span>
+                    <label class="text-label">Email<span class="star">*</span>: 
                     <input placeholder="@gmail.com" type="email" name="email" required></label>
-                    <label class="text-label">Phone: </span>
+                    <label class="text-label">Phone<span class="star">*</span>: 
                     <input type="tel" name="phone" required></label>
-                    <label class="text-label">Home State or Country:  </span>
+                    <label class="text-label">Home State or Country<span class="star">*</span>:  
                     <input name="country" type="text" required></label>
             </fieldset>
         </div>
