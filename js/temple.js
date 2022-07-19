@@ -88,7 +88,7 @@ async function getTemples(){
     console.log(json.temples[1]);
     templesArr = json.temples;
     displayTemples(json.temples);
+    localStorage.setItem("visited", "true");
 }
 getTemples()
 
-localStorage.setItem("visited", "true");
