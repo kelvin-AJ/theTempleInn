@@ -11,7 +11,7 @@
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nSaturday,20 August 2022 \nMonday,5 September 2022- Monday,2 January 2023 ",
             "schedule2": "2023: \nMonday,6 March 2023- Monday,20 March 2023 \nSaturday, 19 August 2023 \nMonday,4 September 2023- Monday,18 September 2023",
-            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-1.jpg"
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-1@2x.jpg"
             
         },
         {
@@ -25,7 +25,7 @@
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nMonday, 5 September 2022 \nMonday, 19 September 2022- Friday, 30 September 2022 \nSaturday, 1 October 2022- Sunday, 2 October 2022 \nThursday, 24 November 2022 \nSaturday, 24 December 2022- Sunday, 25 December 2022 \nSaturday, 31 December 2022- Sunday, 1 January 2023",
             "schedule2": "2023: \nMonday, 20 March 2023- Monday, 3 April 2023\nMonday, 18 September 2023- Monday, 2 October 2023",
-            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-2.jpg"
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-2@2x.jpg"
         },
         {
             "id": "3",
@@ -38,7 +38,7 @@
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nSaturday, 20 August 2022\nTuesday, 13 September 2022- Monday, 26 September 2022\nSunday, 25 December 2022- Monday, 26 December 2022",
             "schedule2": "2023: \nSaturday, 7 January 2023\n Monday, 13 March 2023- Monday, 27 March 2023\n Monday, 11 September 2023- Monday, 25 September 2023",
-            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-3.jpg"
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-3@2x.jpg"
         },
         {
             "id": "4",
@@ -51,7 +51,7 @@
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nSaturday, 8 October 2022n\n, 10 October 2022- Monday, 24 October 2022\n, 24 December 2022\nSaturday, 31 December 2022",
             "schedule2": "2023: \n, 8 April 2023\n, 10 April 2023- Monday, 24 April 2023\nSaturday, 14 October 2023\n, 16 October 2023- Monday, 30 October 2023",
-            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-4.jpg"
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-4@2x.jpg"
         },
         {
             "id": "5",
@@ -64,7 +64,7 @@
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nMonday, 18 July 2022- Monday, 12 September 2022\nSaturday, 8 October 2022- Sunday, 9 October 2022",
             "schedule2": "2023\nMonday, 6 March 2023- Monday,20 March 2023\nMonday, 28 August 2023- Monday, 11 September 2023",
-            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-5.jpg"
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-5@2x.jpg"
         },
         {
             "id": "6",
@@ -77,7 +77,7 @@
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nMonday, 3 October 2022 - Monday, 17 October 2022, 23 November 2022 (Limited Operations)\nThursday, 24 November 2022\nSaturday, 24 December 2022\nSaturday, 31 December 2022 (Limited Operations)",
             "schedule2": "2023:\nSaturday, 1 April 2023\nMonday, 3 April 2023 - Monday, 17 April 2023\nTuesday, 4 July 2023\nSaturday, 30 September 2023\nMonday, 2 October 2023 - Monday, 16 October 2023\nWednesday, 22 November 2023 (Limited Operations)\nThursday, 23 November 2023",
-            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-6.jpg"
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-6@2x.jpg"
         },
         {
             "id": "7",
@@ -90,7 +90,7 @@
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nSaturday, 24 December 2022\nSaturday, 31 December 2022",
             "schedule2": "2023: \nMonday, 9 January 2023 - Monday, 23 January 2023\nMonday, 12 June 2023 - Monday, 26 June 2023",
-            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-7.jpg"
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-7@2x.jpg"
         },
         {
             "id": "8",
@@ -103,7 +103,7 @@
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nSaturday, 1 October 2022\n, 10 October 2022 - Monday, 24 October 2022\n, 23 November 2022 - Thursday, 24 November 2022",
             "schedule2": "Saturday, 24 December 2022\nSaturday, 31 December 2022",
-            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-8.jpg"
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-8@2x.jpg"
         },
         {
             "id": "9",
@@ -116,7 +116,7 @@
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nThursday, 21 July 2022\nMonday, 5 September 2022 - Monday, 19 September 2022\nSaturday, 8 October 2022\nFriday, 11 November 2022\nThursday, 24 November 2022",
             "schedule2": "Saturday, 10 December 2022\nSaturday, 24 December 2022\nSaturday, 31 December 2022",
-            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-9.jpg"
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-9@2x.jpg"
         }
     ]
 }
