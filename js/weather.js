@@ -24,6 +24,7 @@ const getNextDay = function(days=1){
 };
 
 const fillForecastWeather = function(daily){
+    forecastGrid.innerHTML = "";
     for(let i = 1; i <= 3; i++){
         forecastGrid.insertAdjacentHTML("beforeend", 
         `

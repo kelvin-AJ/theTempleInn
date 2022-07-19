@@ -129,6 +129,7 @@
     }
     .forecast img{
         align-self: baseline;
+        height: 140%;
     }
     /* TEMPLE MAIN */
     .temple-temple-card{

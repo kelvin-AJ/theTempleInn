@@ -66,11 +66,11 @@ const displayTemples = function(temples){
         templesGrid.insertAdjacentHTML("beforeend", 
         `<div class="temple-temple-card"  ondblclick="likeTemple(${temple.id})">
         <h2>${temple.name}</h2>
-        <img src="images/salt-lake.jpg" alt="pictur of ${temple.name}">
+        <img src="images/salt-lake.jpg" alt="pictur of ${temple.name}" loading="lazy">
         <div class="temple-short-info">
             <span>${temple.address}</span>
             <span${temple.telephone}</span>
-            <span>${temples.email}</span>
+            <span><a href="https://www.churchofjesuschrist.org/temples/list?lang=eng" target="blank_">${temple.email}</a></span>
             <span onclick="displayLarge(${temple.id})"><b>more...</b></span>
         </div>
         <div class="temple-card-action-grid" onclick="likeTemple(${temple.id})">
