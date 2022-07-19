@@ -10,7 +10,9 @@
             "history": "Announced : 2 April 2000, Groundbreaking: 23 February 2002,Dedicated: 7 August 2005",
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nSaturday,20 August 2022 \nMonday,5 September 2022- Monday,2 January 2023 ",
-            "schedule2": "2023: \nMonday,6 March 2023- Monday,20 March 2023 \nSaturday, 19 August 2023 \nMonday,4 September 2023- Monday,18 September 2023"
+            "schedule2": "2023: \nMonday,6 March 2023- Monday,20 March 2023 \nSaturday, 19 August 2023 \nMonday,4 September 2023- Monday,18 September 2023",
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-1.jpg"
+            
         },
         {
             "id": "2",
@@ -22,7 +24,8 @@
             "history": "Announced: 4 October 1997, Groundbreaking: 17 April 1998, Dedicated: 9 January 1999, Rededicated: 8 February 2004",
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nMonday, 5 September 2022 \nMonday, 19 September 2022- Friday, 30 September 2022 \nSaturday, 1 October 2022- Sunday, 2 October 2022 \nThursday, 24 November 2022 \nSaturday, 24 December 2022- Sunday, 25 December 2022 \nSaturday, 31 December 2022- Sunday, 1 January 2023",
-            "schedule2": "2023: \nMonday, 20 March 2023- Monday, 3 April 2023\nMonday, 18 September 2023- Monday, 2 October 2023"
+            "schedule2": "2023: \nMonday, 20 March 2023- Monday, 3 April 2023\nMonday, 18 September 2023- Monday, 2 October 2023",
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-2.jpg"
         },
         {
             "id": "3",
@@ -34,7 +37,8 @@
             "history": "Announced: 16 February 1998, Groundbreaking: 16 November 2001, Dedicated: 11 January 2004",
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nSaturday, 20 August 2022\nTuesday, 13 September 2022- Monday, 26 September 2022\nSunday, 25 December 2022- Monday, 26 December 2022",
-            "schedule2": "2023: \nSaturday, 7 January 2023\n Monday, 13 March 2023- Monday, 27 March 2023\n Monday, 11 September 2023- Monday, 25 September 2023"
+            "schedule2": "2023: \nSaturday, 7 January 2023\n Monday, 13 March 2023- Monday, 27 March 2023\n Monday, 11 September 2023- Monday, 25 September 2023",
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-3.jpg"
         },
         {
             "id": "4",
@@ -46,7 +50,8 @@
             "history": "Announced :17 March 1999, Groundbreaking :29 May 1999, Dedicated: 15 June 2000",
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nSaturday, 8 October 2022n\n, 10 October 2022- Monday, 24 October 2022\n, 24 December 2022\nSaturday, 31 December 2022",
-            "schedule2": "2023: \n, 8 April 2023\n, 10 April 2023- Monday, 24 April 2023\nSaturday, 14 October 2023\n, 16 October 2023- Monday, 30 October 2023"
+            "schedule2": "2023: \n, 8 April 2023\n, 10 April 2023- Monday, 24 April 2023\nSaturday, 14 October 2023\n, 16 October 2023- Monday, 30 October 2023",
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-4.jpg"
         },
         {
             "id": "5",
@@ -58,7 +63,8 @@
             "history": "Announced: 15 October 1977,Groundbreaking: 19 February 1981, Dedicated: 5 August 1983, Rededicated: 4 September 2005",
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nMonday, 18 July 2022- Monday, 12 September 2022\nSaturday, 8 October 2022- Sunday, 9 October 2022",
-            "schedule2": "2023\nMonday, 6 March 2023- Monday,20 March 2023\nMonday, 28 August 2023- Monday, 11 September 2023"
+            "schedule2": "2023\nMonday, 6 March 2023- Monday,20 March 2023\nMonday, 28 August 2023- Monday, 11 September 2023",
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-5.jpg"
         },
         {
             "id": "6",
@@ -70,7 +76,8 @@
             "history": "Announced: 4 April 1997, Groundbreaking: 20 June 1998, Dedicated: 5 March 2000",
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nMonday, 3 October 2022 - Monday, 17 October 2022, 23 November 2022 (Limited Operations)\nThursday, 24 November 2022\nSaturday, 24 December 2022\nSaturday, 31 December 2022 (Limited Operations)",
-            "schedule2": "2023:\nSaturday, 1 April 2023\nMonday, 3 April 2023 - Monday, 17 April 2023\nTuesday, 4 July 2023\nSaturday, 30 September 2023\nMonday, 2 October 2023 - Monday, 16 October 2023\nWednesday, 22 November 2023 (Limited Operations)\nThursday, 23 November 2023"
+            "schedule2": "2023:\nSaturday, 1 April 2023\nMonday, 3 April 2023 - Monday, 17 April 2023\nTuesday, 4 July 2023\nSaturday, 30 September 2023\nMonday, 2 October 2023 - Monday, 16 October 2023\nWednesday, 22 November 2023 (Limited Operations)\nThursday, 23 November 2023",
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-6.jpg"
         },
         {
             "id": "7",
@@ -82,7 +89,8 @@
             "history": "Announced: 1 July 1952, Groundbreaking: 5 August 1953,  Dedicated: 11 September 1955, Rededicated: 23 October 1992",
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nSaturday, 24 December 2022\nSaturday, 31 December 2022",
-            "schedule2": "2023: \nMonday, 9 January 2023 - Monday, 23 January 2023\nMonday, 12 June 2023 - Monday, 26 June 2023"
+            "schedule2": "2023: \nMonday, 9 January 2023 - Monday, 23 January 2023\nMonday, 12 June 2023 - Monday, 26 June 2023",
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-7.jpg"
         },
         {
             "id": "8",
@@ -94,7 +102,8 @@
             "history": "Announced: 17 March 1999, Groundbreaking: 29 May 1999, Dedicated: 19 March 2000",
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nSaturday, 1 October 2022\n, 10 October 2022 - Monday, 24 October 2022\n, 23 November 2022 - Thursday, 24 November 2022",
-            "schedule2": "Saturday, 24 December 2022\nSaturday, 31 December 2022"
+            "schedule2": "Saturday, 24 December 2022\nSaturday, 31 December 2022",
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-8.jpg"
         },
         {
             "id": "9",
@@ -106,7 +115,8 @@
             "history": "Announced: 7 October 2018, Groundbreaking: 4 May 2019, Dedicated: 22 May 2022",
             "ordinances": "All ordinances are available",
             "schedule1": "2022: \nThursday, 21 July 2022\nMonday, 5 September 2022 - Monday, 19 September 2022\nSaturday, 8 October 2022\nFriday, 11 November 2022\nThursday, 24 November 2022",
-            "schedule2": "Saturday, 10 December 2022\nSaturday, 24 December 2022\nSaturday, 31 December 2022"
+            "schedule2": "Saturday, 10 December 2022\nSaturday, 24 December 2022\nSaturday, 31 December 2022",
+            "img": "https://kelvin-aj.github.io/theTempleInn/images/json-images/temple-9.jpg"
         }
     ]
 }

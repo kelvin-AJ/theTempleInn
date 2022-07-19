@@ -22,7 +22,7 @@ const displayLarge = function(id){
     `
     <div class="temple-temple-card temple-large-card">
     <h2>${temple.name}</h2><button onclick="closeLarge()" class="close-temple-btn"><span>&#10005;</span></button>
-    <img class="temple-card-img" src="images/salt-lake.jpg" alt="${temple.name}">
+    <img class="temple-card-img" src="${temple.img}" alt="${temple.name}">
     <div class="temple-long-info">
         <span>${temple.address}</span>
         <span>${temple.telephone}</span>
@@ -66,7 +66,7 @@ const displayTemples = function(temples){
         templesGrid.insertAdjacentHTML("beforeend", 
         `<div class="temple-temple-card"  ondblclick="likeTemple(${temple.id})">
         <h2>${temple.name}</h2>
-        <img src="images/salt-lake.jpg" alt="pictur of ${temple.name}" loading="lazy">
+        <img src="${temple.img}" alt="pictur of ${temple.name}" loading="lazy">
         <div class="temple-short-info">
             <span>${temple.address}</span>
             <span${temple.telephone}</span>
