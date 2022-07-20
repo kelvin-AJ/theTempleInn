@@ -268,7 +268,7 @@ main{
 }
 .temple-card{
     width: 100%;
-    box-shadow: 0px 0px 10px #423E37;
+    box-shadow: 0px 0px 2px #423E37;
     overflow: hidden;
     border-radius: 0.4rem;
     grid-column: 1/2;
@@ -332,7 +332,7 @@ hr{
     column-gap: 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1rem 1fr 1rem;
-    box-shadow: 0px 0px 5px #423E37;
+    box-shadow: 0px 0px 3px #423E37;
     border-radius: 1rem;
     padding: 0.8rem;
     text-align: center;
@@ -341,8 +341,7 @@ hr{
     grid-row: 2/3;
     grid-column: 1/-1;
     align-self: center;
-    height: 80%;
-    width: 100%;
+    max-width: 100%;
 }
 .forecast span{font-size: inherit;}
 .forecast span:nth-child(1){grid-column: 1/-1;}
@@ -355,7 +354,7 @@ hr{
     display: grid;
     grid-template-rows: 3rem 1fr 0.2fr ;
     grid-template-columns: 1fr 4rem;
-    box-shadow: 0px 0px 5px #423E37;
+    box-shadow: 0px 0px 3px #423E37;
     border-radius: 0.5rem;
     overflow: hidden;
     width: 90%;
@@ -573,7 +572,7 @@ button.submit-btn:hover{
 }
 .spotlight-sub-card:hover{
     background-color: #e1ce7a28;
-    box-shadow: 0px 0px 10px #423E37;
+    box-shadow: 0px 0px 7px #423E37;
 }
 .spotlight-sub div img{
     height: 15rem;
@@ -591,8 +590,7 @@ button.submit-btn:hover{
     width: 95vw;
     display: grid;
     grid-template-columns: 2rem 1fr 2rem;
-    grid-template-rows: 3fr 5rem 1fr;
-    
+    grid-template-rows: 1fr 5rem 1fr;
 }
 
 .layer1{
@@ -606,6 +604,7 @@ button.submit-btn:hover{
     padding: 0.5rem;
     grid-column: 2/-2;
     grid-row: 2/4;
+    z-index: 2;
 }
 .ft-missionary-images{
     display: grid;

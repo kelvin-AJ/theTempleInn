@@ -174,24 +174,28 @@
         width: 80%;
     }
     .multilayer-type{
-        grid-template-columns: 1fr 5rem 1fr;
+        grid-template-columns: 1fr 10rem 1fr;
         grid-template-rows: 5rem 1fr 5rem;
         width: 80%;
     }
+    .layer1:nth-child(1){
+        width: 88%;
+    }
     .layer2{
-        grid-row: 1/-1;
+        grid-row: 1/3;
         grid-column: 1/3;
         z-index: -1;
         display: grid;
         
     }
     .layer2 .info-area{
-        width: 80%;
+        width: 60%;
         padding: 2rem;
+        align-self: center;
         justify-self: flex-start;
     }
     .layer2 div#info-2{
-        transform: translateX(4rem);
+        transform: translateX(9rem);
         text-align: right;
     }
 
