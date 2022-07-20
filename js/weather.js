@@ -22,7 +22,7 @@ const getNextDay = function(days=1){
     const curDay = new Date().getDay();
     let nextDay = curDay + days;
     if(nextDay > 6){
-        nextDay -= 7;
+        nextDay -= daysArr.length;
     };
     return daysArr[nextDay];
 };

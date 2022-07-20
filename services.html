@@ -31,67 +31,53 @@
     </header>
     <main class="services-main">
         <h1 class="dm-text">Our Services</h1>
-       <div class="services-spotlight-area">
-            <div class="spotlight-main">
-                <picture>
-                    <source media="(min-width: 1000px)" srcset="images/hotel-food.jpg">
-                    <source media="(min-width: 35rem)" srcset="images/hotel-food-med.jpg">
-                    <source media="(min-width: 300px)" srcset="images/hotel-food-small.jpg">
-                    <img src="images/hotel-food-small.jpg" alt="spotlight image">
-                </picture>
-                <div>
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta rem dicta quos ratione maiores totam.</p>
-                </div>
-            </div>
-            <div class="spotlight-sub">
-                <div class="spotlight-sub-card">
-                    <img src="images/ipum-2.png" alt="sub card image">
-                    <h3>Lorem, ipsum.</h3>
-                </div>
-                <div class="spotlight-sub-card">
-                    <img src="images/ipum-2.png" alt="sub card image">
-                    <h3>Lorem, ipsum.</h3>
-                </div>
-                <div class="spotlight-sub-card">
-                    <img src="images/ipum-2.png" alt="sub card image">
-                    <h3>Lorem, ipsum.</h3>
-                </div>
-                <div class="spotlight-sub-card">
-                    <img src="images/ipum-2.png" alt="sub card image">
-                    <h3>Lorem, ipsum.</h3>
-                </div>
-                <div class="spotlight-sub-card">
-                    <img src="images/ipum-2.png" alt="sub card image">
-                    <h3>Lorem, ipsum.</h3>
-                </div>
-                <div class="spotlight-sub-card">
-                    <img src="images/ipum-2.png" alt="sub card image">
-                    <h3>Lorem, ipsum.</h3>
-                </div>
-            </div>
-       </div>
+        <div class="spotlight-sub">
+            
+        </div>
        <div id="services-reception">
-            <h2>Reception</h2>
-            <div class="services-reception-main">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, atque, aliquid at magnam eaque a temporibus voluptatem, voluptatibus asperiores laborum mollitia explicabo sapiente ut voluptates non sunt architecto autem quia.</p>
-                <img src="images/ipum-2.png" alt="wedding image stuff">
+            <h2>Wedding Reception</h2>
+            <div class="services-reception-main multilayer-type">
+                <picture class="layer1">
+                    <source media="(min-width: 600px)" srcset="images/reception-large.jpg">
+                    <source media="(min-width: 350px)" srcset="images/reception-small.jpg">
+                    <img src="images/ipum-2.png" width="648px" height="648px" alt="Wedding Reception">
+                </picture>
+                <div class="layer2">
+                    <div class="info-area">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, atque, aliquid at magnam eaque a temporibus voluptatem, voluptatibus asperiores laborum mollitia explicabo sapiente ut voluptates non sunt architecto autem quia.
+                    </div>
+                </div>
             </div>
        </div>
-       <div id="services-ft-missionary">
-        <div class="ft-missionary-images">
-            <!-- IMAGES -->
-        </div>
-        <div>
-            <!-- INFO ABOUT HOTEL -->
-        </div>
+       <h2>Full-Time Temple Missionary Suite</h2>
+       <div id="services-ft-missionary" class="multilayer-type">
+            <div class="ft-missionary-images layer1">
+                <!-- IMAGES -->
+                <img src="images/suite-img-1.jpg" alt="facility image">
+                <img src="images/suite-img-2.jpg" alt="facility image">
+                <img src="images/suite-img-3.jpg" alt="facility image">
+                <img src="images/suite-img-4.jpg" alt="facility image">
+            </div>
+                
+            <div class="layer2" >
+               <div class="info-area" id="info-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, atque, aliquid at magnam eaque a temporibus voluptatem, voluptatibus asperiores laborum mollitia explicabo sapiente ut voluptates non sunt architecto autem quia.
+                </div>
+            </div>
        </div>
+       <h2>Contact Us</h2>
+       <form class="contact-form">
+        <label><span class="block">Email<span class="star">*</span>:</span> <input name="email" type="email" placeholder="@email.com" required></label>
+        <label><span class="block">Message<span class="star">*</span>:</span> <textarea name="message" ></textarea></label>
+        <input class="submit-btn" type="submit" value="Send Message">
+       </form>
+
     </main>
     <footer>
         <div class="footer-first-half">
             <img src="images/logo-3.png" alt="Temple Inn & suite logo">
             <h2>The Temple Inn & Suite</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magni adipisci fuga eos rerum esse.</p>
+            <p>4867 Montgomery Ln #300, Bethesda, MD 20814 <br> info@thetempleinn.org<br>+1(000)-12345</p>
         </div>
         <hr>
         <div class="footer-second-half">
@@ -105,6 +91,7 @@
         </div>
         <span>©2022 The Temple Inn & Suite</span>
     </footer>
+    <script src="js/services.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

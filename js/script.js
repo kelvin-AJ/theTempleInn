@@ -5,6 +5,7 @@ const headerText = document.querySelector(".header-text");
 const headerP = document.querySelector(".header-p");
 const ctaBtn = document.querySelector(".cta-btn");
 const headerTemples = document.querySelectorAll(".header-img");
+const footerEl = document.querySelector(".footer-info");
 
 
 // Navigation toggle
@@ -33,4 +34,20 @@ navBtn.addEventListener("click", switchNav);
         img.classList.toggle("transparent");
         img.classList.toggle("opaque");
     });
-}, 10000)
+}, 10000);
+
+// DATE AND LAST MODIFIED
+
+const curDate = new Date();
+let curYear = curDate.getFullYear();
+
+const lastModifiedDate = new Date(document.lastModified)
+
+let modYear = lastModifiedDate.getFullYear();
+let modDay = lastModifiedDate.getDay();
+let modMonth = lastModifiedDate.getMonth();
+let modminute = lastModifiedDate.getMinutes();
+let modsecond = lastModifiedDate.getSeconds()
+let modhour = lastModifiedDate.getHours(); 
+
+footerEl.innerHTML = `©${curYear} The Temple Inn & Suite | Last Modified: ${modMonth}/${modDay}/${modYear} ${modhour}:${modminute}:${modsecond}`;

@@ -7,7 +7,6 @@
     /* ////////////////////////////////// */
     header{
         display: grid;
-        height: 70vh;
         grid-template-columns: 35% 1fr;
         grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
         gap: 0px;
@@ -53,6 +52,9 @@
     header nav ul li{
         transition: all 0.5s;
     }
+    header nav ul li a{
+        margin: 0px;
+    }
     header nav ul li:hover{
         border-bottom: 1px solid #E1CE7A;}
     header h1{
@@ -91,7 +93,6 @@
     }
     .temple-card{
         height: fit-content;
-        border: 1.5px solid #E1CE7A;
         border-radius: 0.5rem;
         overflow: hidden;
     }
@@ -123,7 +124,6 @@
         grid-template-rows: 0.5rem 50% 0.5rem;
         gap: 0.5rem;
         padding: 0.3rem;
-        border: 1.5px solid #E1CE7A;
         border-radius: 0.5rem;
 
     }
@@ -143,7 +143,22 @@
     .spotlight-sub{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        overflow: visible;
     }
+    .spotlight-sub div{
+        width: 92%;
+    }
+    .ft-missionary-images{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        overflow-x: visible;
+        width: 100%;
+    }
+    .ft-missionary-images img{
+        width: 100%;
+    }
+
+
     /* FOOTER */
     /* ///////////////////////////////////// */
     footer{
