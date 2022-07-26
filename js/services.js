@@ -1,4 +1,11 @@
 const spotlightSub = document.querySelector(".spotlight-sub");
+const receptionArea = document.querySelector("#services-reception");
+const suiteArea = document.querySelector("#services-ft-missionary");
+const scrollSuiteBtn = document.querySelector("#scroll-suite-btn");
+const scrollWeddingBtn = document.querySelector("#scroll-wedding-btn");
+const multiSections = document.querySelectorAll(".multilayer-type");
+let spotlightCards;
+
 
 const services =[
     {
@@ -37,7 +44,7 @@ const fillSpotlightSub = function(services){
     services.forEach(service => {
         spotlightSub.insertAdjacentHTML("beforeend",
         `
-                <div class="spotlight-sub-card">
+                <div class="spotlight-sub-card unloaded">
                     <img src="${service.image}" alt="${service.serviceName} image">
                     <div class="spotlight-description">
                         <h3 class="dm-text">${service.serviceName}</h3>
@@ -45,6 +52,48 @@ const fillSpotlightSub = function(services){
                     </div>
                 </div>`);
     });
+    spotlightCards = document.querySelectorAll(".spotlight-sub-card");
 };
 
 fillSpotlightSub(services);
+
+// SCROLLLING
+
+scrollSuiteBtn.addEventListener("click", () => {
+    suiteArea.scrollIntoView({behavior: "smooth"})
+});
+scrollWeddingBtn.addEventListener("click", () => {
+    receptionArea.scrollIntoView({behavior: "smooth"})
+});
+
+// INTERSECTION OBSERVER AND ANIMATIONS
+const loadSection = (section) => {
+    section.classList.remove("unloaded");
+    section.classList.add("loaded");
+}
+
+const observer = new IntersectionObserver((sections, observer) => {
+    sections.forEach(section => {
+        if(section.isIntersecting){
+            loadSection(section.target);
+            observer.unobserve(section.target);
+        }
+    });
+});
+
+if("IntersectionObserver" in window) {
+    multiSections.forEach(section => {
+        observer.observe(section)
+    })
+}else {
+    multiSections.forEach(section => {loadSection(section)});
+};
+
+
+let i = -1;
+const loopSpotlights = setInterval(() => {
+    if(i > spotlightCards.length) clearInterval(loopSpotlights);
+    if(i <= spotlightCards.length) i++;
+    spotlightCards[i].classList.remove("unloaded");
+    spotlightCards[i].classList.add("loaded");
+}, 150)

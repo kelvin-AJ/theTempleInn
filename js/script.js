@@ -5,6 +5,7 @@ const headerText = document.querySelector(".header-text");
 const headerP = document.querySelector(".header-p");
 const ctaBtn = document.querySelector(".cta-btn");
 const headerTemples = document.querySelectorAll(".header-img");
+const footer = document.querySelector("footer");
 const footerEl = document.querySelector(".footer-info");
 
 

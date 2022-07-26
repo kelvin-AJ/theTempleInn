@@ -4,6 +4,7 @@ const forecastGrid = document.querySelector(".forecast-grid");
 const homeBody = document.querySelector("body");
 let hex;
 let banner;
+let forecastCards ;
 
 const apiLink = "https://api.openweathermap.org/data/2.5/onecall?lat=38.98&lon=-77.09&appid=2f8abfbca951d73dc1966185af2f0fea&units=imperial";
 

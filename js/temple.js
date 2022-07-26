@@ -85,7 +85,6 @@ const displayTemples = function(temples){
 async function getTemples(){
     const templesFetch = await fetch(url);
     const json = await templesFetch.json();
-    console.log(json.temples[1]);
     templesArr = json.temples;
     displayTemples(json.temples);
     localStorage.setItem("visited", "true");

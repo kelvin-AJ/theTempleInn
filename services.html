@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A home away from home. Our suites serve to give you an experience that will bring you closer to the lord.">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -17,7 +19,6 @@
 <body>
     <header class="page-header">
         <img class="logo-img logo-img-2" src="images/logo-3.png" alt="temple & inn logo">
-        <div class="overlay"></div>
         <button class="nav-btn"><span>&#9776;</span><span>&#10005;</span></button>
         <nav class="pt-text hide nav">
             <ul>
@@ -31,12 +32,18 @@
     </header>
     <main class="services-main">
         <h1 class="dm-text">Our Services</h1>
+        <div class="sub-nav">
+            <ul>
+                <li id="scroll-wedding-btn">Wedding Reception</li>
+                <li  id="scroll-suite-btn">Missionary Suite</li>
+            </ul>
+        </div>
         <div class="spotlight-sub">
             
         </div>
        <div id="services-reception">
             <h2>Wedding Reception</h2>
-            <div class="services-reception-main multilayer-type">
+            <div class="services-reception-main multilayer-type unloaded">
                 <picture class="layer1">
                     <source media="(min-width: 600px)" srcset="images/reception-large.jpg">
                     <source media="(min-width: 350px)" srcset="images/reception-small.jpg">
@@ -55,8 +62,9 @@
                 </div>
             </div>
        </div>
-       <h2>Full-Time Temple Missionary Suite</h2>
-       <div id="services-ft-missionary" class="multilayer-type">
+       <h2 id="services-ft-missionary">Full-Time Temple Missionary Suite</h2>
+       <div class="multilayer-type services-ft-missionary unloaded">
+        
             <div class="ft-missionary-images layer1">
                 <!-- IMAGES -->
                 <img src="images/suite-img-1.jpg" alt="facility image">

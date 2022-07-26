@@ -144,9 +144,15 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         overflow: visible;
+        gap: 1rem;
+        justify-items: center;
+        padding: 0.5rem;
     }
     .spotlight-sub div{
-        width: 92%;
+        width: 90%;
+    }
+    .multilayer-type{
+        grid-template-rows: 1fr 8rem 10rem;
     }
     .ft-missionary-images{
         grid-template-columns: 1fr 1fr ;

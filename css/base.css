@@ -82,6 +82,7 @@ b{
     position: sticky;
     top:0px;
     background-color: #423e37ad;
+    backdrop-filter: blur(1rem);
 }
 
 
@@ -185,6 +186,9 @@ header h1{
     font-weight: bolder;
     color: #FFFFFF;
     font-size: 3rem;
+    animation-name: slide-in;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
 }
 header p{
     grid-column: 1/-1;
@@ -192,6 +196,9 @@ header p{
     font-size: 1.3rem;
     padding-left: 4rem;
     padding-right: 4rem;
+    animation-name: slide-in;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
 }
 header .cta-btn{
     grid-column: 1/-1;
@@ -205,6 +212,9 @@ header .cta-btn{
     transition: all 0.3s;
     text-decoration: none;
     padding: 1rem;
+    animation-name: slide-left;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
 }
 
 
@@ -546,6 +556,10 @@ button.submit-btn:hover{
 .services-main{
     display: grid;
 }
+.sub-nav{
+    display: none;
+}
+
 .services-main h1{
     margin: 1rem auto;
     color: #423E37;
@@ -677,6 +691,26 @@ footer span{
         background-color: #423e371f;
     }
 }
+@keyframes slide-in{
+    from{
+        opacity: 0%;
+        transform: translateY(7rem);
+    }
+    to{
+        opacity: 100%;
+        transform: translateY(0rem);
+    }
+}
+@keyframes slide-left{
+    from{
+        opacity: 0%;
+        transform: translateX(15rem);
+    }
+    to{
+        opacity: 100%;
+        transform: translateY(0rem);
+    }
+}
 
 ::-webkit-scrollbar{
     background-color: #FFFFFF;
@@ -688,7 +722,17 @@ footer span{
     border-radius: 1rem;
 }
 
-/* MUST CHANGE */
+/* PSEUDO CLASSES */
 .hidden-all{
     display: none;
+}
+
+.unloaded{
+    opacity: 0%;
+    transform: translateY(12rem);
+}
+.loaded{
+    animation-name: slide-in;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
 }
