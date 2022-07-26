@@ -11,7 +11,7 @@ const footerEl = document.querySelector(".footer-info");
 
 // Navigation toggle
 const toggleHide = function(element){
-    element.classList.toggle("hide");
+    if(element)element.classList.toggle("hide");
 }
 
 const switchNav = function(){

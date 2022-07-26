@@ -92,8 +92,9 @@ if("IntersectionObserver" in window) {
 
 let i = -1;
 const loopSpotlights = setInterval(() => {
-    if(i > spotlightCards.length) clearInterval(loopSpotlights);
-    if(i <= spotlightCards.length) i++;
+    if(i == spotlightCards.length) clearInterval(loopSpotlights);
+    if(i < spotlightCards.length - 1){ i++
     spotlightCards[i].classList.remove("unloaded");
     spotlightCards[i].classList.add("loaded");
+    }
 }, 150)
