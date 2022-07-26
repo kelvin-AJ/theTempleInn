@@ -478,7 +478,7 @@ form .h2-tag{
     font-size: 1.3rem;
     margin: 0.5rem;
 }
-input#temple-location, .contact-form input, .contact-form textarea{
+input#temple-location, .contact-form input, .contact-form textarea, textarea{
     margin:3rem auto ;
     width: 18rem;
     border-radius: 1rem;
